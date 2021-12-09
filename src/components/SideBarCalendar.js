@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
 import Calendar from 'react-calendar'
+import './SideBarCalendar.css'
 
 class SideBarCalendar extends Component {
     render() {
         return (
             <div className="calendar-container">
-                <div className="calender-topBar">
-                    <button className="calendar-button">Calender</button>
-                    <button className="calendar-button">Reminder</button>
+                <div className="calendar-topBar">
+                    <button className="calendar-button">Calendar</button>
+                    <button className="reminder-button">Reminder</button>
                 </div>
 
-                <div className="calender-body">
+                <div className="calendar-body">
                     <Calendar/>
                 </div>
             </div>

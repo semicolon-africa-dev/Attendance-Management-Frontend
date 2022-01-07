@@ -1,0 +1,63 @@
+{
+  "cohorts": [
+    {
+      "id": 1,
+      "cohort": "cohort 5",
+      "name": "galaxy",
+      "natives": 25,
+      "status": "inactive",
+      "details": "view",
+      "action": "inactive" 
+    },
+    {
+      "id": 2,
+      "cohort": "cohort 6",
+      "name": "engineers",
+      "natives": 23,
+      "status": 5,
+      "details": "view",
+      "action": "active" 
+    },
+
+    {
+      "id": 3,
+      "cohort": "cohort 7",
+      "name": "sages",
+      "natives": 20,
+      "status": 20,
+      "details": "view",
+      "action": "active" 
+    },
+
+    {
+      "id": 4,
+      "cohort": "cohort 8",
+      "name": "phoenix",
+      "natives": 32,
+      "status": 20,
+      "details": "view",
+      "action": "active" 
+    },
+
+    {
+      "id": 5,
+      "cohort": "cohort 10",
+      "name": "heroes",
+      "natives": 30,
+      "status": 40,
+      "details": "view",
+      "action": "inactive" 
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "firstname": "Gabriel",
+    "lastname" : "Tommy"
+  }
+}

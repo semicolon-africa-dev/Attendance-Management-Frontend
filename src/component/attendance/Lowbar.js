@@ -41,9 +41,9 @@ const Lowbar = () => {
             <Box bg='white' w='95%' h='60vh' p={4} marginTop={"8%"} marginLeft={"20px"} display={'flex'}
                 color='black' borderRadius={'20px'} boxShadow={'0px 4px 4px rgba(0, 0, 0, 0.25'}>
 
-                <h1 className={"week"}>WeeK <button className={"btn"}>2</button></h1>
+                <h1 className ={"week"}>WeeK <button className={"btn"}>2</button></h1>
 
-                <div className={"days-list"}>
+                <div className ={"days-list"}>
                     <h4 className={"day-heading"}>Days</h4>
                     <div className="day-list__checkbox">
                         <ul>

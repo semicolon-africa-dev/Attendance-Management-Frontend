@@ -18,8 +18,6 @@ const Header = () => {
             <Box display="flex" float="right" mt="22px" mr="25px" pr="30px" pt="0.5px">
                
                <ProfileIcon state={state} setstate = {setstate}/>
-                
-
                 <Box paddingLeft="15px" paddingTop="8px">
                     <img src= {dropdown} onClick={()=>{state==="hidden"?setstate("visible"):setstate("hidden")}} alt="dropdown-icon"></img>
                 </Box>

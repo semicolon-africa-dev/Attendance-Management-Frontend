@@ -6,7 +6,7 @@ import Attendance from "./views/attendance/Attendance";
 function App() {
   return (
     <div className="App">
-      {/*<Admin/>*/}
+      <Admin/>
       {/*<Attendance/>*/}
     </div>
   );

@@ -8,7 +8,7 @@ const Status = ({natives, status}) => {
             return "INACTIVE"
         }
         else{
-            console.log(`${status}/${natives}`)
+            
             return `${status}/${natives}`
         }
     }

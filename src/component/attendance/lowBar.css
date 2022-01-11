@@ -1,0 +1,48 @@
+.week {
+    margin-top: 170px;
+    margin-left: 24px;
+    font-size: 72px;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+    font-Size: 72px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.days-list {
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.day-heading  {
+    width: 52px;
+    height: 36px;
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 1px 0;
+    padding-left: 35px;
+}
+
+.day-list__checkbox {
+    margin-top: 10px;
+}
+
+input[type= "checkbox"]{
+    border: 1px solid black;
+    display: block;
+    font-size: 11px;
+    padding-left: 10%;
+    height: 40px;
+    border-radius:  4px;
+    width:40px;
+    margin-left: 100%;
+    background-color: black;
+}

@@ -1,19 +1,24 @@
-import { Box } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
+import { extendTheme } from '@chakra-ui/react'
 
 const CircleHeader = () => {
-  return (
-    
-        <Box height="150px" width="150px" backgroundColor="
-        #FF113A" borderRadius="50%" pt="20px">
-          <Box height="110px" width="110px" backgroundColor="#E3FBF2" borderRadius="50%" ml="20px">
-
-          </Box>
+	const numberPresent = () => {
+		
+	}
+  	return (
+ 
+        <Box border="25px" height="100px" width="100px" borderRadius="100%" p="10px" borderStyle="solid" borderColor="#FF113A">
+			<Text my="40px" fontWeight="bold" fontFamily="
+			IBM Plex Sans" fontSize="25px" >
+				10 / 20
+			</Text>
+       
       
         </Box>
     
    
-  )
+  	)
 }
 
 export default CircleHeader

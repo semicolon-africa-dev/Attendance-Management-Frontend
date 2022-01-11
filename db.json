@@ -43,8 +43,8 @@
       "id": 5,
       "cohort": "cohort 10",
       "name": "heroes",
-      "natives": 40,
-      "status": 4,
+      "natives": 30,
+      "status": 40,
       "details": "view",
       "action": "inactive" 
     }

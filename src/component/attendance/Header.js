@@ -8,7 +8,7 @@ import {ListItem,UnorderedList} from '@chakra-ui/react'
 
 
 const Header = () => {
-    const [state, setstate] = useState("hidden");
+    const [dropdownState, setDropdownState] = useState("hidden");
     const [bellState, setBellState] = useState(bell);
     let messages= ['There will be a general public holiday tomorrow Friday 13/10/2021.',
     'Cohort 8 will be going on 2weeks break due to so many of them falling sick.', 
@@ -20,12 +20,12 @@ const Header = () => {
         }}}>
             <Box display="flex" float="right" mt="22px" mr="25px">
                 <Box paddingRight="30px" paddingTop="0.5px" >
-                    <Image src={bellState} onClick={()=>{state==="hidden"?setstate("visible"):setstate("hidden")}}></Image>
+                    <Image src={bellState} onClick={()=>{dropdownState==="hidden"?setDropdownState("visible"):setDropdownState("hidden")}}></Image>
                 </Box>
                 
             </Box>
             
-          <UnorderedList listStyleType="none" w="300px" h="300px" bg="#ffffff" float="right" mt="50px" rounded="10px" textAlign="center" visibility={state} mb="10px">
+          <UnorderedList listStyleType="none" w="300px" h="300px" bg="#ffffff" float="right" mt="50px" rounded="10px" textAlign="center" visibility={dropdownState} mb="10px">
                 {
                 messages.map((message)=>{ 
                    return <Box textAlign = "center" fontSize="small">

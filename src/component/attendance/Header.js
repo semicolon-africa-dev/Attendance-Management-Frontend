@@ -7,12 +7,11 @@ import {ListItem,UnorderedList} from '@chakra-ui/react'
 
 
 
-const Header = () => {
+const Header = (props) => {
     const [dropdownState, setDropdownState] = useState("hidden");
     const [bellState, setBellState] = useState(bell);
-    let messages= ['There will be a general public holiday tomorrow Friday 13/10/2021.',
-    'Cohort 8 will be going on 2weeks break due to so many of them falling sick.', 
-    'There will be muslim public holiday Thurs 17th & Fri 18th of Oct 2021.']
+    let messages = props.messages;
+    // let messages= []
     
     return (
         <Box onLoad={()=>{if (messages.length>0){
